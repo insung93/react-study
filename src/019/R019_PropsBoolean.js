@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class R018_PropsDatatype extends Component {
+class R019_PropsBoolean extends Component {
     render() {
         let {
             BooleanTrueFalse
@@ -14,4 +14,4 @@ class R018_PropsDatatype extends Component {
     }
 }
 
-export default R018_PropsDatatype;
+export default R019_PropsBoolean;
