@@ -127,3 +127,8 @@ $ npm run debug src=[001|002|003|...]
 - this.state.변수명 = value 와 같이 state를 직접 변경하면 render() 함수를 호출하지 않으므로 화면에 보이는 state 값은 바뀌기 전 상태로 남게 된다.
 - 이 때, forceUpdate() 함수로 화면을 새로 고침하면, render() 함수를 호출해 변경된 값을 화면에 보여줄 수 있다.
 ---
+### 027 - Component 사용하기(class형 컴포넌트)
+- class형 컴포넌트에는 Component와 pureComponent가 있다.
+- 두 컴포넌트 모두 props와 state의 변경에 따라 render() 함수를 호출하는데 변경에 대한 기준이다르다.
+- Component에서는 비교 대상이 완전히 동일하지 않으면 변경이 발생했다고 본다.
+---
