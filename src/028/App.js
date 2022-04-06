@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import ComponentClass from './R027_ComponentClass';
+import PureComponentClass from './R028_PureComponentClass';
 
 export default function () {
     return (
         <div>
             <h1>Start React 200!</h1>
-            <p>027 - Component 사용하기</p>
-            <ComponentClass />
+            <p>028 - PureComponent 사용하기</p>
+            <PureComponentClass />
         </div>
     );
 }

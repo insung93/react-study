@@ -129,6 +129,12 @@ $ npm run debug src=[001|002|003|...]
 ---
 ### 027 - Component 사용하기(class형 컴포넌트)
 - class형 컴포넌트에는 Component와 pureComponent가 있다.
-- 두 컴포넌트 모두 props와 state의 변경에 따라 render() 함수를 호출하는데 변경에 대한 기준이다르다.
+- 두 컴포넌트 모두 props와 state의 변경에 따라 render() 함수를 호출하는데 변경에 대한 기준이 다르다.
 - Component에서는 비교 대상이 완전히 동일하지 않으면 변경이 발생했다고 본다.
+---
+### 028 - PureComponent 사용하기(class형 컴포넌트)
+- class형 컴포넌트에는 Component와 pureComponent가 있다.
+- 두 컴포넌트 모두 props와 state의 변경에 따라 render() 함수를 호출하는데 변경에 대한 기준이 다르다.
+- PureComponent에서는 비교 대상의 값을 비교해 동일하지 않으면 변경이 발생했다고 본다.
+- 불필요한 render() 함수 실행을 줄이면 페이지 성능을 향상 시킬 수 있다.
 ---
