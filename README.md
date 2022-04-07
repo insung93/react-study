@@ -138,3 +138,11 @@ $ npm run debug src=[001|002|003|...]
 - PureComponent에서는 비교 대상의 값을 비교해 동일하지 않으면 변경이 발생했다고 본다.
 - 불필요한 render() 함수 실행을 줄이면 페이지 성능을 향상 시킬 수 있다.
 ---
+### 029 - shallow-equal 사용하기(class형 컴포넌트)
+- shallow-equal 패키지는 PureComponent에서 state 값의 변경을 비교하는 것과 동일한 기능을 하는 함수를 제공
+- shallowEqualArrays() 함수를 사용하면 문자열과 배열은 값만 비교
+- 객체는 PureComponent와 동일하게 참조 값을 비교
+```bash
+    npm install shallow-equal
+```
+---
