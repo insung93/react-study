@@ -154,3 +154,7 @@ $ npm run debug src=[001|002|003|...]
 - 함수형 컴포넌트에서 클래스형 컴포넌트와 같이 state와 생명주기 함수와 같은 기능을 사용하기 위해 hook을 이용한다.
 - 대표적인 hook 함수 : useState(), useEffect()
 ---
+### 032 - Fragments 사용하기
+- 컴포넌트 단위로  element를 return 할 때 하난의 <html> 태그로 전체를 감싸지 않으면 에러가 발생한다.
+- 이때 <Fragments> 태그로 감싸면 불필요한 <html> 태그를 추가하지 않고 사용할 수 있다.
+---
