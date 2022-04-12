@@ -161,3 +161,8 @@ $ npm run debug src=[001|002|003|...]
 ### 033 - map() 으로 element 반환하기
 - 반복해서 출력해야 하는 element들을 배열에 넣어두고 map() 함수로 순서대로 나열해 컴포넌트를 return 할 수 있다.
 ---
+### 034 - reactstrap Alerts 사용하기
+- bootstrap을 react에서 사용할 수 있도록 패키지로 만든 것이 reactstrap이다.
+- css는 포함하고 있지 않기 때문에 bootstrap도 설치
+- 적용이 안됨.....
+---
