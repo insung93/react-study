@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Swal from 'sweetalert2';
 
-class R057_Sweetalert2Position extends Component {
+class R058_Sweetalert2Confirm extends Component {
     deleteAlert = (e) => {
         Swal.fire({
             title: '정말 삭제하시겠습니까?',
@@ -32,4 +32,4 @@ class R057_Sweetalert2Position extends Component {
         )
     }
 }
-export default R057_Sweetalert2Position;
+export default R058_Sweetalert2Confirm;

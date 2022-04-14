@@ -187,3 +187,35 @@ npm install sweetalert2
 - 웹 사이트에 삭제 기능을 구현할 때 사용자의 실수로 데이터가 삭제될 수 있다.
 - 이런 상황 방지하기 위해 실제 삭제 작업을 실행하기 전에 다시 한번 확인하는 알림 창을 표시한다.
 ---
+### 059 - fetch get 호출
+- 웹에서는 클라이언트와 서버가 http 프로토콜을 통해 요청과 응답을 주고받는다.
+- http에서 사용하는 방식은 여러 가지가 있지만, GET과 POST를 많이 사용한다.
+- GET은 데이터를 조회해 가져와 사용하는 것이다.
+- GET 방식은 url 뒤에 쿼리스트링으로 필요한 데이터를 전달한다.
+- fetch 를 사용하면 비동기 통신을 쉽게 구현할 수 있다.
+- 비동기 통신이란, 먼저 시작한 작업의 완료 여부와 상관없이 다음 작업을 실행하는 것이다.
+- fetch를 사용해서 get 방식으로 url을 호출해 데이터를 가져온다.
+- 가져온 데이터를 response라는 변수에 할당하고 fetch 함수에 별도의 http 메서드 설정이 없다면, get 방식으로 호출한다.
+```
+ReferenceError: regeneratorRuntime is not defined
+
+regeratorRuntime이 async/await 문법을 번역하도록 했는데 해당 regenerator를 제공하지 않아서 발생한 에러
+
+babel 7.4.0부터는 core-js/stable(ECMAScript 기능들의 polyfill 제공)과 regenerator-runtime/runtime (transpiled generator functions 사용을 위해 필요) 직접 포함하면서 @babel/polyfill이 deprecated되었다.
+따라서 @babel/polyfill이 아닌 @babel/runtime과 @babel/plugin-transform-runtime을 설치해 regenerator-runtime을 추가하는 방식으로 해결했다.
+
+다음의 커맨드로 설치해주고
+
+> npm install --save-dev @babel/plugin-transform-runtime
+> npm install --save @babel/runtime
+
+babel 설정에 plugin을 등록해주자.
+
+{
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
+
+출처
+https://velog.io/@haebin/React-regeneratorRuntime-is-not-defined-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0
+```
+---
