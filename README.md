@@ -219,3 +219,7 @@ babel 설정에 plugin을 등록해주자.
 https://velog.io/@haebin/React-regeneratorRuntime-is-not-defined-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0
 ```
 ---
+### 060 - fetch post 호출하기
+- GET이 데이터를 조회해 가져와 사용하는 용도로 사용한다면, POST는 서버의 상태나 데이터를 변경하는 등의 수행 작업에 사용된다.
+- POST는 http body에 데이터를 넣어 전달하는데, url 뒤에 파라미터를 표시하지 않고 사용할 수 있다는 장점이 있다.
+---
