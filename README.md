@@ -223,3 +223,10 @@ https://velog.io/@haebin/React-regeneratorRuntime-is-not-defined-%EC%97%90%EB%9F
 - GET이 데이터를 조회해 가져와 사용하는 용도로 사용한다면, POST는 서버의 상태나 데이터를 변경하는 등의 수행 작업에 사용된다.
 - POST는 http body에 데이터를 넣어 전달하는데, url 뒤에 파라미터를 표시하지 않고 사용할 수 있다는 장점이 있다.
 ---
+### 061 - axios get 사용하기
+- axios도 fetch 와 마찬가지로 비동기 통신을 지원
+- axios는 별도로 설치한 후 import 해서 사용해야 한다.
+```
+npm install axios
+```
+---
