@@ -230,3 +230,7 @@ https://velog.io/@haebin/React-regeneratorRuntime-is-not-defined-%EC%97%90%EB%9F
 npm install axios
 ```
 ---
+### 061 - axios post 사용하기
+- axios로 post 방식의 호출을 하는 문법은 get 방식으로 호출했을 때와 거의 동일하다.
+- 다른 점은 post 함수의 파라미터로 json과 같은 형태의 데이터를 넣고 http body에 담아 url을 호출할 수 있다는 것이다.
+---
