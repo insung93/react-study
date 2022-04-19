@@ -230,7 +230,12 @@ https://velog.io/@haebin/React-regeneratorRuntime-is-not-defined-%EC%97%90%EB%9F
 npm install axios
 ```
 ---
-### 061 - axios post 사용하기
+### 062 - axios post 사용하기
 - axios로 post 방식의 호출을 하는 문법은 get 방식으로 호출했을 때와 거의 동일하다.
 - 다른 점은 post 함수의 파라미터로 json과 같은 형태의 데이터를 넣고 http body에 담아 url을 호출할 수 있다는 것이다.
+---
+### 063 - 콜백 함수 사용하기
+- 자바스크립트는 비동기적으로 동작하기 때문에 먼저 실행된 작업이 끝나지 않았더라도 다음 작업이 시작될 수 있다.
+- 콜백 함수를 이용하면 특정 코드에 순서를 정해 원하는 시점에 실행할 수 있다.
+- 콜백 함수를 여러번 사용할수록 코드가 더 지저분해진다.
 ---
