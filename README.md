@@ -247,3 +247,7 @@ npm install axios
 - Promise의 상태와 대기, 이행, 거부 중 거부 상태가 됐을 때 catch 함수를 실행한다.
 - 대기 상태의 Promise에 에러가 발생해 이행으로 상태 변화를 하지 못하는 경우다
 ---
+### 066 - click 이벤트 사용하기
+- react에서는 html과 달리 이벤트에 camelCase를 사용
+- onClick 이벤트는 특정 element가 클릭 되었을 때 정의된 함수를 호출하는 방식으로 사용한다.
+---
