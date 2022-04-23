@@ -251,3 +251,7 @@ npm install axios
 - react에서는 html과 달리 이벤트에 camelCase를 사용
 - onClick 이벤트는 특정 element가 클릭 되었을 때 정의된 함수를 호출하는 방식으로 사용한다.
 ---
+### 067 - change 이벤트 사용하기
+- react에서는 onChange 이벤트도 camelCase 형식을 사용
+- onChange 이벤트는 특정 element에 변화가 생겼을 때 저의된 함수를 호출하는 방식으로 사요한다.
+---
