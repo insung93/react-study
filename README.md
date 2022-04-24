@@ -273,3 +273,17 @@ npm install axios
 - onSubmit 이벤트는 <form> 태그에 사용한다.
 - <form> 태그 안에 있는 type이 submit인 <input> 태그를 클릭하거나 <input> 태그에 커서를 놓고 Enter를 누르면 onSubmit 이벤트가 발생한다.
 ---
+### 073 - Ref 사용하기
+- Ref는 'reference'의 약자로, 참조라는 뜻이다.
+- react에서 element의 값을 얻거나 수정할 때 보통 javascript나 jquery를 사용하여 id나 class와 같은 속성으로 element에 접근한다.
+- Ref를 사용하면 element가 차마조하는 변수에 접근해 변경하고 element를 제어할 수 있다.
+---
+### 074 - 커링 함수 구현하기
+- 커링(Currying)은 함수의 재사용성을 높이기 위해  함수 자체를 return 하는 함수이다.
+- 함수를 하나만 사용할 때는 필요한 모든 파라미터를 한 번에 넣어야 한다.
+- 컬링을 사용하면 함수를 분리할 수 있으므로 파라미터도 나눠 전달할 수 있다.
+---
+### 075 - 하이오더 컴포넌트 구현하기
+- 커링과 같이 함수 자체를 인자로 받거나 반환하는 함수를 고차 함수라고 한다.
+- 이와 비슷하게 컴포넌트를 인자로 받거나 반환하는 함수를 '고차 컴포넌트(HOC, Higher-Order Component'라고 한다.
+---
