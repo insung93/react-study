@@ -253,5 +253,23 @@ npm install axios
 ---
 ### 067 - change 이벤트 사용하기
 - react에서는 onChange 이벤트도 camelCase 형식을 사용
-- onChange 이벤트는 특정 element에 변화가 생겼을 때 저의된 함수를 호출하는 방식으로 사요한다.
+- onChange 이벤트는 특정 element에 변화가 생겼을 때 저의된 함수를 호출하는 방식으로 사용한다.
+---
+### 068 - mousemove 이벤트 사용하기
+- onMouseMove 이벤트는 특정 tag 영역 안에서 마우스 커서가 움직일 때 발생한다.
+---
+### 069 - mouseover 이벤트 사용하기
+- onMouseOver 이벤트는 특정 tag 영역 안에 마우스 커서가 진입할 때 발생한다.
+---
+### 070 - mouseout 이벤트 사용하기
+- onMouseOut 이벤트는 특정 tag 영역 안에 마우스 커서가 진입했다가 벗어날 때 발생한다.
+---
+### 071 - key 이벤트 사용하기(dowm, press, up)
+- onKeyDown, onKeyPress는 키를 눌렀을 때 동작하고, onKeyUp은 눌려 있던 키에서 손을 뗐을때 동작한다.
+- onKeyDown, onKeyUp는 키를 누르고 떼는 동작 자체에 반응
+- onKeyPress는 문자가 실제로 입력됐을 때 반응
+---
+### 072 - submit 이벤트 사용하기
+- onSubmit 이벤트는 <form> 태그에 사용한다.
+- <form> 태그 안에 있는 type이 submit인 <input> 태그를 클릭하거나 <input> 태그에 커서를 놓고 Enter를 누르면 onSubmit 이벤트가 발생한다.
 ---

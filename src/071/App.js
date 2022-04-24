@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactChange from './R067_onChange';
+import ReactOnKey from './R071_OnKey';
 
 export default function () {
     return (
         <div>
             <h1>Start React 200!</h1>
-            <p>067 - onChange 이벤트 사용하기</p>
-            <ReactChange />
+            <p>071 - key 이벤트 사용하기</p>
+            <ReactOnKey />
         </div>
     );
 }
