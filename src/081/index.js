@@ -10,7 +10,9 @@ const store = createStore(reducers);
 
 const listener = () => {
     ReactDOM.render(
-        <App store={store} />,
+        <Provider store={store}>
+            <App indexProp="react" />
+        </Provider>,
         document.getElementById('root')
     );
 };
