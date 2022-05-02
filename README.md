@@ -355,3 +355,7 @@ npm install axios
 > npm install --save react-cookies
 ```
 ---
+### 086 - react-cookies load 사용하기
+- save 함수가 쿠키글 (key, value) 쌍으로 저장하는 함수였다면, load 함수는 웹 브라우저에 남아 있는 쿠키에 key로 접근해 value을 가져오는 함수다.
+
+---
