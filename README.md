@@ -357,5 +357,8 @@ npm install axios
 ---
 ### 086 - react-cookies load 사용하기
 - save 함수가 쿠키글 (key, value) 쌍으로 저장하는 함수였다면, load 함수는 웹 브라우저에 남아 있는 쿠키에 key로 접근해 value을 가져오는 함수다.
-
+---
+### 087 - react-cookies remove 사용하기
+- remove 함수는 웹 브라우저에 남아 있는 쿠키에 key로 접근해 쿠키를 삭제하는 함수다.
+- 흐름상 save가 완료된 후 remove, load가 실행 되어야 하는데, 자바스크립트는 비동기적으로 동작하기 때문에 이 순서를 보장이 되지 않아서 setTimeout 함수를 이용한다.
 ---
