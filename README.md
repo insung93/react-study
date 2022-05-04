@@ -362,3 +362,10 @@ npm install axios
 - remove 함수는 웹 브라우저에 남아 있는 쿠키에 key로 접근해 쿠키를 삭제하는 함수다.
 - 흐름상 save가 완료된 후 remove, load가 실행 되어야 하는데, 자바스크립트는 비동기적으로 동작하기 때문에 이 순서를 보장이 되지 않아서 setTimeout 함수를 이용한다.
 ---
+### 088 - react-router-dom BrowserRouter 사용하기
+- 라우팅이란, 호출되는 url에 따라 페이지(view) 이동을 설정하는 것으로, react에서 view는 component를 사용한다.
+- react에서 라우팅을 지원하는 패키지는 여러개 있지만, 웹 개발을 윟나 패키지로 적합한 react-router-dom을 설치한다.
+```shell
+> npm install --save react-router-dom
+```
+---
